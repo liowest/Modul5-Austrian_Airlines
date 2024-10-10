@@ -61,5 +61,12 @@ public class Angebot {
     public void setRegulärerPreis(double regulärerPreis) {
         this.regulärerPreis = regulärerPreis;
     }
-    
+    public void anzeigen(){
+        System.out.println("Regulärer Preis: "+regulärerPreis+ "Flugdatum: "+
+                flugdatum.format(DateTimeFormatter.BASIC_ISO_DATE)+"Flugnummer: "+
+                flugnummer +"Rabattierter Preis: "+reduziertenpreis
+                +"Rabattname: "+
+                rabattstrategie.getBezeichnung());
+
+    }
 }
