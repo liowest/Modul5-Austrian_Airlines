@@ -32,6 +32,13 @@ In der anzeigen() MEthode wird alles auf die Kommandozeile ausgegeben.
 
 In der Main Klasse werden drei verschiedene Angebote erstellt und die anzeigen Methode wird für alle Angebote aufgerufen.
 
+## Gelernt:
+
+Vererbung, abstrakte Klassen und Methoden, arbeiten mit LocalDate
+
+
+
+
 
 
 
